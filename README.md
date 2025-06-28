@@ -5,6 +5,7 @@ In silico workflow to screen for bitter compounds using BitterX (https://mdl.shs
 1. Convert InChIkey to SMILES using PubChemR package. (https://github.com/selcukorkmaz/PubChemR)
 2. Run python script to collect data from BitterX.
 3. Merge data from step 1 and 2 using R.
+
 Refer to bitter_screen_example.csv for example CSV.
 
 Requirements: R (4.4.2), Python 3.9
